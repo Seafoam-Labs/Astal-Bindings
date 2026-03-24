@@ -10,7 +10,7 @@
 
         <!-- NuGet package metadata -->
         <PackageId>AstalBindings</PackageId>
-        <Version>0.0.2</Version>
+        <Version>0.2.0</Version>
         <Authors>Seafoam Labs</Authors>
         <Description>C# P/Invoke bindings for the Astal library collection (apps, auth, battery, bluetooth, greet, hyprland, mpris, network, notifd, power-profiles, river, tray, wireplumber, GTK3/GTK4, IO).</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
