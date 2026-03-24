@@ -1,0 +1,8 @@
+namespace Astal.Bindings.AstalGtk4
+{
+    public partial struct _AstalBinClass
+    {
+        [NativeTypeName("GtkWidgetClass")]
+        public _GtkWidgetClass parent_class;
+    }
+}
