@@ -1,9 +1,9 @@
 #!/bin/bash
 set +e
-export PATH="$PATH:/home/zoey/.dotnet/tools"
-export LD_LIBRARY_PATH="/home/zoey/.dotnet/tools/.store/clangsharppinvokegenerator/21.1.8.3/clangsharppinvokegenerator.linux-x64/21.1.8.3/tools/any/linux-x64:${LD_LIBRARY_PATH:-}"
+export PATH="$PATH:$HOME/.dotnet/tools"
 
-PROJECT_ROOT="/home/zoey/RiderProjects/AstalBindings"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$SCRIPT_DIR"
 OUTPUT_DIR="$PROJECT_ROOT/AstalBindings/Generated"
 REPO="$PROJECT_ROOT/astal-repo/lib"
 
