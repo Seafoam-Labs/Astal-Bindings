@@ -42,7 +42,6 @@ namespace Astal.Bindings.AstalNetwork
 
         private delegate void ChangedDelegate(void* self, void* data);
         private ChangedDelegate? _onChanged;
-        private nuint _changedHandlerId;
 
         public event Action? Changed
         {
