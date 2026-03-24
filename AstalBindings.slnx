@@ -3,5 +3,9 @@
   <Folder Name="/Solution Items/">
     <File Path="generate-bindings.sh" />
     <File Path="setup.sh" />
+    <File Path="push-nuget.sh" />
+    <File Path=".github/workflows/publish-nuget.yml" />
+    <File Path="README.md" />
+    <File Path="LICENSE" />
   </Folder>
 </Solution>

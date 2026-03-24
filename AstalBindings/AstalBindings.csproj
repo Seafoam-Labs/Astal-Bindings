@@ -11,11 +11,11 @@
         <!-- NuGet package metadata -->
         <PackageId>AstalBindings</PackageId>
         <Version>0.1.0</Version>
-        <Authors>zoey</Authors>
+        <Authors>Seafoam Labs</Authors>
         <Description>C# P/Invoke bindings for the Astal library collection (apps, auth, battery, bluetooth, greet, hyprland, mpris, network, notifd, power-profiles, river, tray, wireplumber, GTK3/GTK4, IO).</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageProjectUrl>https://github.com/Aylur/astal</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/zoey/AstalBindings</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/Seafoam-Labs/Astal-Bindings</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Seafoam-Labs/Astal-Bindings</RepositoryUrl>
         <PackageTags>astal;gtk;linux;wayland;pinvoke;bindings;gobject</PackageTags>
         <IsPackable>true</IsPackable>
     </PropertyGroup>
